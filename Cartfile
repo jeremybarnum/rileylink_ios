@@ -1,2 +1,2 @@
-github "LoopKit/LoopKit" "dev"
+github "dm61/LoopKit" "carb-model-refactor"
 github "LoopKit/MKRingProgressView" "appex-safe"
