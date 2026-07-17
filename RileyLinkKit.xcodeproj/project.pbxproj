@@ -122,6 +122,43 @@
 		C1FC49EC2135CB2D007D0788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FC49EB2135CB2D007D0788 /* LaunchScreen.storyboard */; };
 		C1FFAF6F212CB4F100C50C1D /* RileyLinkConnectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FFAF6E212CB4F100C50C1D /* RileyLinkConnectionState.swift */; };
 		C1FFAF72212FAAEF00C50C1D /* RileyLink.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FFAF71212FAAEF00C50C1D /* RileyLink.xcassets */; };
+		FADE00000000000000000001 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2366EF212527DA0028B67D /* LocalizedString.swift */; };
+		FADE00000000000000000002 /* ResponseBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA719C2026C9B00058961E /* ResponseBuffer.swift */; };
+		FADE00000000000000000003 /* RileyLinkConnectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FFAF6E212CB4F100C50C1D /* RileyLinkConnectionState.swift */; };
+		FADE00000000000000000004 /* CBPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE78E1F985B6E00255374 /* CBPeripheral.swift */; };
+		FADE00000000000000000005 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBE4501EAD238C0073A0B5 /* TimeInterval.swift */; };
+		FADE00000000000000000006 /* RileyLinkDeviceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433ABFFB2016FDF700E6C1FF /* RileyLinkDeviceError.swift */; };
+		FADE00000000000000000007 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BA719A202591A70058961E /* Response.swift */; };
+		FADE00000000000000000008 /* PeripheralManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D5E7871FAEDAC4004ACDB7 /* PeripheralManagerError.swift */; };
+		FADE00000000000000000009 /* RileyLinkDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE79B1F9B21BA00255374 /* RileyLinkDevice.swift */; };
+		FADE00000000000000000010 /* CommandSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7A61F9D98F700255374 /* CommandSession.swift */; };
+		FADE00000000000000000011 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7A21F9D737F00255374 /* Command.swift */; };
+		FADE00000000000000000012 /* CBCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7A01F9D195600255374 /* CBCentralManager.swift */; };
+		FADE00000000000000000013 /* RileyLinkBluetoothDeviceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7901F985D8D00255374 /* RileyLinkBluetoothDeviceProvider.swift */; };
+		FADE00000000000000000014 /* RileyLinkBluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CAB67428C696D800F6F715 /* RileyLinkBluetoothDevice.swift */; };
+		FADE00000000000000000015 /* RileyLinkDeviceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CAB67228C696A600F6F715 /* RileyLinkDeviceProvider.swift */; };
+		FADE00000000000000000016 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE78C1F985B5400255374 /* PeripheralManager.swift */; };
+		FADE00000000000000000017 /* BLEFirmwareVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE79D1F9BE73900255374 /* BLEFirmwareVersion.swift */; };
+		FADE00000000000000000018 /* RadioFirmwareVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432847C21FA57C0F00CDE69C /* RadioFirmwareVersion.swift */; };
+		FADE00000000000000000019 /* PeripheralManager+RileyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7921F985DE700255374 /* PeripheralManager+RileyLink.swift */; };
+		FADE00000000000000000020 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7941F9B0DAE00255374 /* OSLog.swift */; };
+		FADE00000000000000000021 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
+		FADE00000000000000000022 /* RFPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7A41F9D78F500255374 /* RFPacket.swift */; };
+		FADE00000000000000000023 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2366EF212527DA0028B67D /* LocalizedString.swift */; };
+		FADE00000000000000000024 /* RileyLinkDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43323EA91FA81C1B003FB0FA /* RileyLinkDevice.swift */; };
+		FADE00000000000000000025 /* RileyLinkListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB145F293835A8004CE8DA /* RileyLinkListDataSource.swift */; };
+		FADE00000000000000000026 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBE4501EAD238C0073A0B5 /* TimeInterval.swift */; };
+		FADE00000000000000000027 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD6BA1C826B92006DBA60 /* Data.swift */; };
+		FADE00000000000000000028 /* RileyLinkDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352A74020DED23000CAC200 /* RileyLinkDeviceManager.swift */; };
+		FADE00000000000000000029 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CE7941F9B0DAE00255374 /* OSLog.swift */; };
+		FADE00000000000000000030 /* RileyLinkPumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D26AF20DA08CE00891C17 /* RileyLinkPumpManager.swift */; };
+		FADE00000000000000000031 /* RileyLinkBLEKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 431CE7711F98564100255374 /* RileyLinkBLEKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADE00000000000000000032 /* RileyLinkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 43722FB01CB9F7640038B7F2 /* RileyLinkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADE00000000000000000033 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FB610B20DDF55F002B996B /* LoopKit.framework */; };
+		FADE00000000000000000034 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CA93241CB8BB33000026B5 /* CoreBluetooth.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FADE00000000000000000035 /* RileyLinkBLEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431CE76F1F98564100255374 /* RileyLinkBLEKit.framework */; };
+		FADE00000000000000000036 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FB610B20DDF55F002B996B /* LoopKit.framework */; };
+		FADE00000000000000000037 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B66D1F9A2E6A8BD800471149 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +203,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 43722FAD1CB9F7630038B7F2;
 			remoteInfo = RileyLinkKit;
+		};
+		FADE00000000000000000040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12EA22F198B436800309FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADE00000000000000000042;
+			remoteInfo = "RileyLinkBLEKit-watchOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -289,6 +333,8 @@
 		C1FC49EB2135CB2D007D0788 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1FFAF6E212CB4F100C50C1D /* RileyLinkConnectionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RileyLinkConnectionState.swift; sourceTree = "<group>"; };
 		C1FFAF71212FAAEF00C50C1D /* RileyLink.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RileyLink.xcassets; sourceTree = "<group>"; };
+		FADE00000000000000000038 /* RileyLinkBLEKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RileyLinkBLEKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE00000000000000000039 /* RileyLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RileyLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +389,24 @@
 				431CE7841F98564200255374 /* RileyLinkBLEKit.framework in Frameworks */,
 				4352A74720DED4AF00CAC200 /* LoopKit.framework in Frameworks */,
 				4352A74620DED4AB00CAC200 /* LoopKitUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE00000000000000000046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE00000000000000000033 /* LoopKit.framework in Frameworks */,
+				FADE00000000000000000034 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE00000000000000000050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE00000000000000000035 /* RileyLinkBLEKit.framework in Frameworks */,
+				FADE00000000000000000036 /* LoopKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +556,8 @@
 				431CE76F1F98564100255374 /* RileyLinkBLEKit.framework */,
 				431CE7771F98564200255374 /* RileyLinkBLEKitTests.xctest */,
 				43D5E78E1FAF7BFB004ACDB7 /* RileyLinkKitUI.framework */,
+				FADE00000000000000000038 /* RileyLinkBLEKit.framework */,
+				FADE00000000000000000039 /* RileyLinkKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -621,6 +687,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FADE00000000000000000044 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE00000000000000000031 /* RileyLinkBLEKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE00000000000000000048 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE00000000000000000032 /* RileyLinkKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -719,6 +801,43 @@
 			productReference = C12EA237198B436800309FA4 /* RileyLink.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FADE00000000000000000042 /* RileyLinkBLEKit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE00000000000000000052 /* Build configuration list for PBXNativeTarget "RileyLinkBLEKit-watchOS" */;
+			buildPhases = (
+				FADE00000000000000000044 /* Headers */,
+				FADE00000000000000000045 /* Sources */,
+				FADE00000000000000000046 /* Frameworks */,
+				FADE00000000000000000047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RileyLinkBLEKit-watchOS";
+			productName = RileyLinkBLEKit;
+			productReference = FADE00000000000000000038 /* RileyLinkBLEKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FADE00000000000000000043 /* RileyLinkKit-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE00000000000000000053 /* Build configuration list for PBXNativeTarget "RileyLinkKit-watchOS" */;
+			buildPhases = (
+				FADE00000000000000000048 /* Headers */,
+				FADE00000000000000000049 /* Sources */,
+				FADE00000000000000000050 /* Frameworks */,
+				FADE00000000000000000051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADE00000000000000000041 /* PBXTargetDependency */,
+			);
+			name = "RileyLinkKit-watchOS";
+			productName = RileyLinkKit;
+			productReference = FADE00000000000000000039 /* RileyLinkKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -797,6 +916,8 @@
 				431CE7761F98564200255374 /* RileyLinkBLEKitTests */,
 				43722FAD1CB9F7630038B7F2 /* RileyLinkKit */,
 				43D5E78D1FAF7BFB004ACDB7 /* RileyLinkKitUI */,
+				FADE00000000000000000042 /* RileyLinkBLEKit-watchOS */,
+				FADE00000000000000000043 /* RileyLinkKit-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -831,6 +952,21 @@
 				43709AEC20E0056F00F941B3 /* RileyLinkKitUI.xcassets in Resources */,
 				B66D1F9D2E6A8BD800471149 /* Localizable.xcstrings in Resources */,
 				43709AF020E0120F00F941B3 /* SetupImageTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE00000000000000000047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE00000000000000000037 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE00000000000000000051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -965,6 +1101,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FADE00000000000000000045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE00000000000000000001 /* LocalizedString.swift in Sources */,
+				FADE00000000000000000002 /* ResponseBuffer.swift in Sources */,
+				FADE00000000000000000003 /* RileyLinkConnectionState.swift in Sources */,
+				FADE00000000000000000004 /* CBPeripheral.swift in Sources */,
+				FADE00000000000000000005 /* TimeInterval.swift in Sources */,
+				FADE00000000000000000006 /* RileyLinkDeviceError.swift in Sources */,
+				FADE00000000000000000007 /* Response.swift in Sources */,
+				FADE00000000000000000008 /* PeripheralManagerError.swift in Sources */,
+				FADE00000000000000000009 /* RileyLinkDevice.swift in Sources */,
+				FADE00000000000000000010 /* CommandSession.swift in Sources */,
+				FADE00000000000000000011 /* Command.swift in Sources */,
+				FADE00000000000000000012 /* CBCentralManager.swift in Sources */,
+				FADE00000000000000000013 /* RileyLinkBluetoothDeviceProvider.swift in Sources */,
+				FADE00000000000000000014 /* RileyLinkBluetoothDevice.swift in Sources */,
+				FADE00000000000000000015 /* RileyLinkDeviceProvider.swift in Sources */,
+				FADE00000000000000000016 /* PeripheralManager.swift in Sources */,
+				FADE00000000000000000017 /* BLEFirmwareVersion.swift in Sources */,
+				FADE00000000000000000018 /* RadioFirmwareVersion.swift in Sources */,
+				FADE00000000000000000019 /* PeripheralManager+RileyLink.swift in Sources */,
+				FADE00000000000000000020 /* OSLog.swift in Sources */,
+				FADE00000000000000000021 /* Data.swift in Sources */,
+				FADE00000000000000000022 /* RFPacket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE00000000000000000049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE00000000000000000023 /* LocalizedString.swift in Sources */,
+				FADE00000000000000000024 /* RileyLinkDevice.swift in Sources */,
+				FADE00000000000000000025 /* RileyLinkListDataSource.swift in Sources */,
+				FADE00000000000000000026 /* TimeInterval.swift in Sources */,
+				FADE00000000000000000027 /* Data.swift in Sources */,
+				FADE00000000000000000028 /* RileyLinkDeviceManager.swift in Sources */,
+				FADE00000000000000000029 /* OSLog.swift in Sources */,
+				FADE00000000000000000030 /* RileyLinkPumpManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -997,6 +1177,11 @@
 			isa = PBXTargetDependency;
 			target = 43722FAD1CB9F7630038B7F2 /* RileyLinkKit */;
 			targetProxy = A9B839D022809DE7004E745E /* PBXContainerItemProxy */;
+		};
+		FADE00000000000000000041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADE00000000000000000042 /* RileyLinkBLEKit-watchOS */;
+			targetProxy = FADE00000000000000000040 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1483,6 +1668,149 @@
 			};
 			name = Release;
 		};
+		FADE00000000000000000054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 46;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RileyLinkBLEKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rileylink.RileyLinkBLEKit;
+				PRODUCT_NAME = RileyLinkBLEKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FADE00000000000000000055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 46;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RileyLinkBLEKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rileylink.RileyLinkBLEKit;
+				PRODUCT_NAME = RileyLinkBLEKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		FADE00000000000000000056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 46;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 46;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RileyLinkKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rileylink.RileyLinkKit;
+				PRODUCT_NAME = RileyLinkKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		FADE00000000000000000057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 46;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 46;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = RileyLinkKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rileylink.RileyLinkKit;
+				PRODUCT_NAME = RileyLinkKit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1536,6 +1864,24 @@
 			buildConfigurations = (
 				C12EA264198B436900309FA4 /* Debug */,
 				C12EA265198B436900309FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE00000000000000000052 /* Build configuration list for PBXNativeTarget "RileyLinkBLEKit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE00000000000000000054 /* Debug */,
+				FADE00000000000000000055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE00000000000000000053 /* Build configuration list for PBXNativeTarget "RileyLinkKit-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE00000000000000000056 /* Debug */,
+				FADE00000000000000000057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
