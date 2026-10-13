@@ -49,13 +49,6 @@ public class RileyLinkDeviceTableViewCell: UITableViewCell {
         accessoryType = .disclosureIndicator
     }
 
-    override public func layoutSubviews() {
-        super.layoutSubviews()
-
-        contentView.layoutMargins.left = separatorInset.left
-        contentView.layoutMargins.right = separatorInset.left
-    }
-
     public func configureCellWithName(_ name: String?, signal: String?, peripheralState: CBPeripheralState?) {
         textLabel?.text = name
         if peripheralState == .connecting {
